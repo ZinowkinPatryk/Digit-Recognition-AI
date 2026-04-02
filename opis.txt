@@ -1,0 +1,34 @@
+ODCZYTYWANIE LICZB PISANYCH OD 0 DO 9
+
+Podzial plikow
+
+- main
+- model.py
+- Wczytywnie i obrabianie zdjec liczb
+
+Wczytywanie zdjec
+    format:
+        - bialy napis na czarny tle
+        - odczytywany pixel po pixelu w skali szarosci
+
+
+Baza zdjec na poczatku do wytrenowania,
+potem mozliwosc wpisywanai swojej liczby na ekranie:
+    - dwa przyciski jeden wyczysc, drugi odczytaj (wysyla obraz do modelu)
+
+
+
+Plan dzialania:
+- odczytywanie wartosci wskali szarosci z png
+- okno z rysowaniem + opcja wybrania obrazu z PC
+- zebranie bazy do wytrenowania modelu
+- podlaczenie modelu pod okno
+
+
+
+Obrazy:
+- 28x28 px
+- przeskalowanie wartosci do z 0-255 do 0.0 - 1.0
+
+
+
