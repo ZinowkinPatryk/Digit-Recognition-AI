@@ -19,7 +19,6 @@ Instead of just testing on pre-existing data, you can draw your own numbers on a
 2. **Processing**: When the user draws a digit and presses the trigger key, the application takes a screenshot, converts it to grayscale, and downscales it to a 28x28 pixel matrix.
 3. **Prediction**: The processed image is fed into the network, which returns the index of the highest value in the output vector (using `argmax()`).
 
-# WHAT IT LOOKS LIKE 
 # PROJECT STRUCTURE 
 - `main.py`: Entry point of the application.
 - `model.py`: Contains the `NeuralNet` class (CNN architecture) and the `Trainer` class for loading data and making predictions.
