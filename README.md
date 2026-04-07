@@ -40,6 +40,9 @@ Once the window appears, you can interact with the AI using your mouse and keybo
   - **Recognize ('T')**: Press the `T` key. The AI will take a screenshot, process it to 28x28 pixels, and print its prediction in the terminal.
   - **Clear ('Q')**: Press the `Q` key to wipe the canvas and draw a new number.
 
+# WHAT IT LOOKS LIKE
+![](ezgif-2e4531a8f6d3656e.gif)
+
 # KNOWN ISSUES & LIMITATIONS 
 - **Image Downscaling & Stroke Thickness**
   The main challenge in this project is the transition from the 600x600 drawing canvas to the 28x28 pixel input required by the CNN. 
